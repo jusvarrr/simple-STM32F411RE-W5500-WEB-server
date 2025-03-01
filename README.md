@@ -2,7 +2,7 @@
 This project demonstrates how to use the STM32F411 microcontroller to create a simple web server. The server listens for HTTP requests, collects data from an ADC (Analog-to-Digital Converter), and monitors the state of a button. The ADC readings are transmitted over SPI to the Wiznet W5500 Ethernet module for network communication. The potentiometer's voltage is read by the ADC to dynamically change the measurements. It is configured to be reachable on 192.168.55.10.
 ![image](https://github.com/user-attachments/assets/aab75ca7-9ae2-4eb8-8b82-39708aa556c2)
 
-##Features
+## Features
 - Ethernet Connectivity: The project uses the W5500 Ethernet module to connect the STM32 microcontroller to a local network.
 - ADC Monitoring: Continuously measures analog values from sensors and sends the results via HTTP.
 - Button State Monitoring: Reads a button state and includes its value in the HTTP response.
